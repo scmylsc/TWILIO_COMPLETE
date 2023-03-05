@@ -1,4 +1,60 @@
-------------------copyright claim shaik afrid--------------
+#####################################################
+|                                                   |
+*    author   :-  SHAIK AFRID                       *
+*    github   :-  https://github.con/afridanon      *
+*    twitter  :-  @afridanon                        *
+*     @--- DONT TRY TO STEEL MY CODE BITCH ---@     *
+|                                                   |
+#####################################################
+------------------------------------------------------------------------------------------------------------------------------------
+main_key = Sx3XIVb8ZPIkjCE7zSuK6wJ0T7UD5Aln5i3L0QGJSx3XIVb8ZPIkjCE7zSuK6wJ0T7UD5Aln5i3L0QGJSx3XIVb8ZPIkjCE7zSuK6wJ0T7UD5Aln5i3L0QGJ
+sha_key  = Sx3XIVb8ZPIkjCE7zSuK6wJ0T7UD5Aln5i3L0QGJ
+------------------------------------------------------------------------------------------------------------------------------------
+------------------------  DOCUMENTATION  --------------------------------
 
-Sx3XIVb8ZPIkjCE7zSuK6wJ0T7UD5Aln5i3L0QGJSx3XIVb8ZPIkjCE7zSuK6wJ0T7UD5Aln5i3L0QGJSx3XIVb8ZPIkjCE7zSuK6wJ0T7UD5Aln5i3L0QGJ
-Sx3XIVb8ZPIkjCE7zSuK6wJ0T7UD5Aln5i3L0QGJ
+"""
+-------------------------- COMMANDS FOR OUR PROJECT TO RUNSERVER  ------------------------------------------------
+#pip install django 
+#django-admin startproject SC_MAIN
+#cd SC_MAIN
+#python manage.py runserver
+python manage.py startapp sweetchoice
+-------------------------------------------------------------------------------------------------------------------
+"""
+
+STEP 1 = NEED TO IVE PATH IN SC_MAIN FOR SWEETCHOICE URLS
+STEP 2 = NEED TO GIVE PATH FOR IMAGES AND CSS AND FILES IN SETTING .PY FILE IN DJANGO PROJECT
+STEP 3 = NEED TO GIVE ACCESS FOR INDEX.HTML FILE IN URLS.PY FILE
+#IMPORT OS MODULE IN SETTINGS.PY FILE WHICH IS ABSENT IN SETTINGS.PY FILE
+STEP 4 = WRITE YOUR OWN CODE AND IMPORT ALL YOUR PROJECT FILES AND OTHER EXTRA SETTING IN VIEWS.PY FILE AND GIVE  PATH IN THE SETTING.PY FILE
+STEP 5 = FOR VALIDATION PLACE CSRF_TOKEN IN FORM TAG IN HTML FILE AND ACTION MUST BE A METHOD IN VIEWS.PY AND FILE  AND METHOD MUST BE POST FOR VALIDATION
+STEP 5 = FOR OUR PROJECT TWILIO MODULE MUST BE INSTALL IN THE LOCAL HOST BY USING "pip install twilio"
+
+WHY ?
+
+WHY WE NEED TO INSTALL TWILIO MODULE IN OUR SYSTEM
+FOR SENDING MESSSAGE TO A CUSTOMER NUMBER WE NEED A MODULE IN PYTHON TO SEND MESSSAGE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
