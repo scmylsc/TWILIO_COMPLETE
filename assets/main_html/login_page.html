@@ -4,9 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="../css/login_page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
+
+
+
 <body>
-    
+    <div class="main_div">
+        <div class="sub_main_div">
+            
+            <input class="NAME" id="name" type="text" placeholder="ENTER YOUR NAME" ><a class="fa fa-user"></a>
+
+            <input class="username_field" id="username" type="text" placeholder="Username" ><a class="fa fa-user"></a>
+
+           <input class="password_field" id="password" type="text" placeholder="Password" ><a class="fa fa-lock"></a>
+        </div>
+        <div class="sub_main_div2">
+            <input class="login_bu_field" id="login" onclick="login()" type="button" value="LOGIN">
+            <a href="" onclick="create_account()">CREATE ACCOUNT</a>
+            <a class="forget_pass" href="">FORGET PASSWORD</a>
+            
+        </div>
+        <div class="create" onclick="change()">
+            <a href="">HAVE TROUBLE ?</a>
+        </div>
+        <div class="copyright-strike"> 
+            <label class="copyright-strike">Copyright © 2023 SHAIK AFRID , All Rights Reserved.</label>
+        </div>
+    </div>
 </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    window.addEventListener('load', function(e){
+      document.getElementById('defaultOpen').click();
+    });
+  </script>
+  <script src="../js/login_page.js"></script>
 </html>
